@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Visual Studio
+.vs/
+
+# Checkpoint saves. These are very large so I won't included them in the repository
+data/
+
+# Wandb Data
+wandb/
+
 # Distribution / packaging
 .Python
 build/
